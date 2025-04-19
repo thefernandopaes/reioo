@@ -18,7 +18,19 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				mono: ['JetBrains Mono', 'monospace'],
+			},
 			colors: {
+				reioo: {
+					dark: '#0f0f13',
+					darker: '#09090d',
+					purple: '#9b87f5',
+					'purple-dark': '#6a48d7',
+					gray: '#8E9196',
+					'gray-dark': '#444444',
+					red: '#ff3b30',
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
